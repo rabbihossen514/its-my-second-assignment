@@ -136,6 +136,7 @@
     flex-direction: column;
     margin-left: 0.05rem;
     margin-right: 0.05rem;
+    gap: 1px;
   }
   .menubar{
     display: none;
@@ -148,7 +149,6 @@
     flex-direction: column;
   }
   .tree-lince{
-    display: ;
     display: inline-block;
     cursor: pointer;
     padding: 10px;
@@ -172,5 +172,11 @@
     width: 100%;
     justify-content: center
     border: 2px solid blue;
+  }
+  .home-button, .down-btn{
+    margin-bottom: 5px;
+  }
+  .description-container{
+    margin-bottom: 20px;
   }
 }

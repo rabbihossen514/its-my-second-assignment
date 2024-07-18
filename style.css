@@ -130,6 +130,26 @@
   align-items: center;
 }
 
+.habit-img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-1{
+  width: 9.38rem;
+  height: 9.38rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.centering{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: o auto;
+  border: 1px solid pink;
+
+}
+
 /* responsive area */
 @media screen and (max-width:576px) {
   .get-body-img{
